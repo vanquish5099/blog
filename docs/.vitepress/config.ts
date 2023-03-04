@@ -1,7 +1,7 @@
 import { defineConfig, DefaultTheme } from 'vitepress'
 
 export default defineConfig({
-    base:'/base/',
+    base:'/blog/',
     title: `仙童`,
     description: `童子的小屋`,
     head: [

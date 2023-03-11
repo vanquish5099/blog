@@ -1,18 +1,18 @@
 {
-  "name": "vitepress-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "packageManager": "pnpm@7.29.1",
+  "workspaces": [
+    "packages/*",
+    "docs"
+  ],
    "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:dev": "pnpm run -C docs dev",
+    "docs:build": "pnpm run -C docs build",
+    "docs:serve": "pnpm run -C docs serve",
+    "docs:gen-locale": "pnpm run -C docs gen-locale",
+    "docs:crowdin-credentials": "pnpm run -C docs crowdin-credentials"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "vitepress": "^1.0.0-alpha.49",
-    "vue": "^3.2.47"
-  }
+  "license": "ISC"
 }

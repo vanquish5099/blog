@@ -7,7 +7,7 @@ titleTemplate: vanquish
 hero:
   name: 潼子
   text: 学习札记
-  tagline: 内观自己，拜托焦虑；外观世界，借力前行。
+  tagline: 内观自己，摆脱焦虑；外观世界，借力前行。
   image:
     src: /logo.svg
     alt: xt

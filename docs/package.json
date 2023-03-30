@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.0.0-alpha.51"
+    "vitepress": "^1.0.0-alpha.64"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "vue": "3.3.0-alpha.5"
   }
 }

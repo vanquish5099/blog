@@ -25,28 +25,53 @@ export default defineConfig({
                     text: '正则表达式',
                     link: '/note/regexp',
                 },
-                // {
-                //     text: 'APIs',
-                //     items: [
-                //         {
-                //             text: 'Plugin API',
-                //             link: '/guide/api-plugin',
-                //         },
-                //         {
-                //             text: 'HMR API',
-                //             link: '/guide/api-hmr',
-                //         },
-                //         {
-                //             text: 'JavaScript API',
-                //             link: '/guide/api-javascript',
-                //         },
-                //         {
-                //             text: 'Config Reference',
-                //             link: '/config/',
-                //         },
-                //     ],
-                // }
-            ]
+                {
+                    text: '设计模式',
+                    items:[
+                        {
+                            text: '单例模式',
+                            link: '/note/design/singleton',
+                        }, 
+                        {
+                            text: '工厂模式',
+                            link: '/note/design/factory',
+                        },
+                        {
+                            text: '观察者模式',
+                            link: '/note/design/observer',
+                        },
+                        {
+                            text: '建造者模式',
+                            link: '/note/design/builder',
+                        },
+                        {
+                            text: '适配器模式',
+                            link: '/note/design/adapter',
+                        },
+                        {
+                            text: '装饰器模式',
+                            link: '/note/design/decorator',
+                        },
+                        {
+                            text: '外观模式',
+                            link: '/note/design/facade',
+                        },
+                        {
+                            text: '策略模式',
+                            link: '/note/design/strategy',
+                        },
+                        {
+                            text: '职责链模式',
+                            link: '/note/design/chain',
+                        },
+                        {
+                            text: '中介者模式',
+                            link: '/note/design/mediator',
+                        },
+                    ]
+                }
+             
+            ],
         }
     }
 })
